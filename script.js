@@ -11,6 +11,7 @@ const getSum = () => {
 	})
 	const newRow = document.createElement('tr')
 	newRow.innerText = total
+	newRow.id = "ans"
 	const table = document.querySelectorAll('table')[0]
 	table.appendChild(newRow)
 };
